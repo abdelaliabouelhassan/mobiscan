@@ -1,3 +1,31 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+/* GalanoGrotesque.otf/ */
+@font-face {
+    font-family: 'Galano Grotesque';
+    src: url('/fonts/GalanoGrotesque.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+/* GalanoGrotesque-Medium.otf */
+@font-face {
+    font-family: 'Galano Grotesque';
+    src: url('/fonts/GalanoGrotesque-Medium.otf') format('opentype');
+    font-weight: medium;
+    font-style: normal;
+    font-display: swap;
+}
+
+
+
+html{
+    @apply font-galano-grotesque text-dark-grey;
+}
+
+.container{
+    @apply max-w-[76.25rem] mx-auto;
+}
