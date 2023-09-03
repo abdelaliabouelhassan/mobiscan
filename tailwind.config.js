@@ -14,7 +14,7 @@ module.exports = {
         'xs': '475px',
       },
       fontFamily: {
-        'galano-grotesque': ['Galano Grotesque', 'sans-serif'],
+        'galano-grotesque': ['sans-serif'], //'Galano Grotesque',
       },
       colors:{
         'caribbean-green':'#00FFB0',
