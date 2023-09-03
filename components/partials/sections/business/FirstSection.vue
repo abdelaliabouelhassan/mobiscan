@@ -5,7 +5,7 @@
             Lorem ipsum dolor sit amet consectetur. Enim quam porta tortor cursus adipiscing nunc tellus nunc sed.
         </p>
 
-        <div class=" w-[14rem] p-6 h-[14rem] md:w-[19.5625rem] md:h-[19.5625rem] rounded-[3.125rem] bg-white md:p-2 absolute  -bottom-28 md:-bottom-36 right-7 xl:right-16 flex">
+        <div class=" w-[14rem] card-drop p-6 h-[14rem] md:w-[19.5625rem] md:h-[19.5625rem] rounded-[3.125rem] bg-white md:p-2 absolute  -bottom-28 md:-bottom-36 right-7 xl:right-16 flex">
             <div class=" m-auto max-w-[13.91688rem] max-h-[9.0605rem] w-full h-full">
                   <img
                         src="/images/business/M.svg"
@@ -16,3 +16,13 @@
         </div>
     </section>
 </template>
+
+
+
+<style scoped>
+ .card-drop {
+    filter: drop-shadow(-8px -8px 24px rgba(0, 0, 0, 0.05));
+
+
+ }
+</style>
