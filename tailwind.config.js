@@ -19,6 +19,7 @@ module.exports = {
       colors:{
         'caribbean-green':'#00FFB0',
         'port-gore':'#2B2161',
+        'port-gore-dark':"#251F47",
         'dark-grey':'#4F4F4F',
         'light-dark-grey':'#B7B7B7',
         'lilac':'#5345AC'
