@@ -1,6 +1,6 @@
 <template>
     <header class="w-full  fixed top-0 left-0 z-50">
-        <div class="w-full container relative flex h-[4.75rem] items-center">
+        <div class="w-full max-w-[80rem] mx-auto relative flex h-[4.75rem] items-center">
             <nav class="w-full h-full bg-white px-8 flex items-center justify-between z-50 rounded-b-[2.5rem] shadow-[0_4px_4px_0_rgba(0,0,0,0.05)]">
                 <img class="h-8  object-center" src="/images/logo/logo.svg" alt="" srcset="">
                 <button @click="showMenu =!showMenu" class="flex justify-center items-center px-6 py-[0.625rem] text-port-gore border border-port-gore rounded-full 

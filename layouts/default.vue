@@ -1,7 +1,7 @@
 <template>
-    <div>
+    <div class="background">
         <Header />
-        <main class="pt-[4.75rem]">
+        <main class="">
             <slot />
         </main>
     </div>
@@ -9,3 +9,10 @@
 <script setup>
 import Header from '@/components/partials/Header.vue'
 </script>
+
+
+<style scoped>
+.background {
+    background: linear-gradient(180deg, #F6F6F6 0%, rgba(246, 246, 246, 0.00) 100%);
+}
+</style>

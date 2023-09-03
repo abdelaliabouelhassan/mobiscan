@@ -46,7 +46,7 @@
         class="w-full flex lg:flex-row flex-col items-center space-y-8 lg:space-y-0 lg:space-x-4 justify-between max-w-[1024px] mx-auto"
       >
         <div
-          class=" bg-port-gore rounded-full p-14 md:p-0 h-[19rem] w-[19rem] md:w-[24.1875rem] md:h-[24.1875rem] flex"
+          class=" bg-port-gore rounded-full p-14 md:p-0 h-[14rem] w-[14rem] md:w-[24.1875rem] md:h-[24.1875rem] flex"
         >
           <img
             src="/images/business/ebene.svg"
