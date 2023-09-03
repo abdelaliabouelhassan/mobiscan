@@ -1,5 +1,8 @@
 <template>
     <div>
-        this is the index
+        <HeroSection />
     </div>
 </template>
+<script setup>
+import HeroSection from '@/components/partials/home/HeroSection.vue'
+</script>

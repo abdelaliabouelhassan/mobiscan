@@ -1,7 +1,7 @@
 <template>
     <div>
         <Header />
-        <main>
+        <main class="pt-[4.75rem]">
             <slot />
         </main>
     </div>

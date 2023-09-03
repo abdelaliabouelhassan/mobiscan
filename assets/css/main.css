@@ -23,7 +23,8 @@
 
 
 html{
-    @apply font-galano-grotesque text-dark-grey;
+    /* @apply font-galano-grotesque text-dark-grey; */
+    @apply  text-dark-grey;
 }
 
 .container{
