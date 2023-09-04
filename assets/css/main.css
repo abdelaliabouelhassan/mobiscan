@@ -20,6 +20,14 @@
     font-display: swap;
 }
 
+@layer base{
+    h1{
+        @apply text-5xl leading-[3rem] sm:text-[4rem] sm:leading-[4rem] lg:text-[5rem] lg:leading-[5rem] font-galano-grotesque-medium;
+    }
+    h2{
+        @apply text-2xl leading-6 sm:text-4xl sm:leading-9 lg:text-[3.125rem] lg:leading-[3.125rem]  font-galano-grotesque-medium;
+    }
+}
 
 
 html{

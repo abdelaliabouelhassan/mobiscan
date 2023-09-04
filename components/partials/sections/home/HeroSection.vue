@@ -2,7 +2,7 @@
     <section class="w-full overflow-hidden bg-gradient-to-b from-[#F6F6F6] to-white">
         <div class="w-full flex pt-12 container pl-8 gap-x-6 overflow-visible">
             <div class="flex flex-col gap-y-[3.75rem] w-[57%] shrink-0 ">
-                <h1 class="text-[150px] leading-[130px] tracking-[3px]">
+                <h1 class="text-[150px] leading-[130px] tracking-[3px] font-galano-grotesque-medium">
                     <span class="text-caribbean-green">SCAN TO </span><br>
                     <span class="text-port-gore">ABACUS</span>
                 </h1>

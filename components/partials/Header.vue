@@ -2,7 +2,9 @@
     <header class="w-full  fixed top-0 left-0 z-50">
         <div class="w-full max-w-[80rem] mx-auto relative flex md:h-[4.75rem] items-center">
             <nav class="w-full h-full bg-white py-2 md:py-0 space-y-5 md:space-y-0 px-8 flex md:flex-row flex-col items-center md:justify-between z-50 rounded-b-[2.5rem] shadow-[0_4px_4px_0_rgba(0,0,0,0.05)]">
-                <img class="h-8  object-center" src="/images/logo/logo.svg" alt="" srcset="">
+                <nuxt-link to="/" class="h-8">
+                    <img class="h-full  object-center" src="/images/logo/logo.svg" alt="" srcset="">
+                </nuxt-link>
                 <button @click="showMenu =!showMenu" class=" hidden md:flex font-galano-grotesque-medium font-normal justify-center items-center px-6 py-[0.625rem]  border  rounded-full 
                         tracking-[0.32px] uppercase transition-colors duration-300 ease-in-out
                          " :class="{'bg-port-gore text-white':showMenu,'text-port-gore border-port-gore bg-white md:hover:bg-port-gore md:hover:text-white':!showMenu}">
@@ -47,7 +49,7 @@
                         </div>
                         <div class="flex flex-col  space-y-5 md:space-y-3 pt-10 md:pt-0">
                             <h3 class="md:mb-9 mb-5 text-3xl md:leading-10 font-galano-grotesque-medium font-normal">UNTERNEHMEN</h3>
-                            <nuxt-link to="/" class="text-lg md:text-xl md:leading-8">Über uns</nuxt-link>
+                            <nuxt-link to="/business" class="text-lg md:text-xl md:leading-8">Über uns</nuxt-link>
                         </div>
                     </div>
                 </div>
