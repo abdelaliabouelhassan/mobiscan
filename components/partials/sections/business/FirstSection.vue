@@ -1,7 +1,7 @@
 <template>
     <section class=" w-full bg-white  rounded-[3.125rem] px-4 md:px-24 pt-36 pb-32 md:pb-48 lg:pb-20 space-y-10 lg:space-y-32 lg:space-x-8 relative">
-        <h1 class=" text-port-gore text-6xl md:text-[5rem] font-medium font-galano-grotesque">Über uns</h1>
-        <p class=" max-w-[37rem] w-full  font-galano-grotesque font-normal text-port-gore text-xl md:text-3xl">
+        <h1 class=" text-port-gore text-6xl md:text-[5rem] font-galano-grotesque-medium font-normal">Über uns</h1>
+        <p class=" max-w-[37rem] w-full  text-port-gore text-xl md:text-3xl">
             Lorem ipsum dolor sit amet consectetur. Enim quam porta tortor cursus adipiscing nunc tellus nunc sed.
         </p>
 
