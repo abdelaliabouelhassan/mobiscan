@@ -14,19 +14,19 @@
                 </p>
             </div>
 
-            <div class=" w-full max-w-[10.4375rem] flex flex-col items-start space-y-2">
-                <nuxt-link to="/" class=" text-white font-galano-grotesque font-medium text-base hover:text-opacity-70 duration-500">Module</nuxt-link>
-                <nuxt-link to="/" class=" text-white font-galano-grotesque font-medium text-base hover:text-opacity-70 duration-500">Vertriebspartner</nuxt-link>
-                <nuxt-link to="/" class=" text-white font-galano-grotesque font-medium text-base hover:text-opacity-70 duration-500">Unternehmen</nuxt-link>
-                <nuxt-link to="/" class=" text-white font-galano-grotesque font-medium text-base hover:text-opacity-70 duration-500">Testimonials</nuxt-link>
-                <nuxt-link to="/" class=" text-white font-galano-grotesque font-medium text-base hover:text-opacity-70 duration-500">KONTAKT</nuxt-link>
+            <div class=" w-full max-w-[10.4375rem] flex flex-col items-start space-y-2 font-galano-grotesque-medium font-normal">
+                <nuxt-link to="/" class=" text-white  text-base hover:text-opacity-70 duration-500">Module</nuxt-link>
+                <nuxt-link to="/" class=" text-white  text-base hover:text-opacity-70 duration-500">Vertriebspartner</nuxt-link>
+                <nuxt-link to="/" class=" text-white  text-base hover:text-opacity-70 duration-500">Unternehmen</nuxt-link>
+                <nuxt-link to="/" class=" text-white  text-base hover:text-opacity-70 duration-500">Testimonials</nuxt-link>
+                <nuxt-link to="/" class=" text-white  text-base hover:text-opacity-70 duration-500">KONTAKT</nuxt-link>
             </div>
 
-              <div class=" w-full max-w-[7.6375rem] flex flex-col items-start space-y-2">
-                <nuxt-link to="/" class=" text-white font-galano-grotesque font-medium text-base hover:text-opacity-70 duration-500">Impressum</nuxt-link>
-                <nuxt-link to="/" class=" text-white font-galano-grotesque font-medium text-base hover:text-opacity-70 duration-500">datenschutz</nuxt-link>
+              <div class=" w-full max-w-[7.6375rem] flex flex-col items-start space-y-2 font-galano-grotesque-medium font-normal">
+                <nuxt-link to="/" class=" text-white  text-base hover:text-opacity-70 duration-500">Impressum</nuxt-link>
+                <nuxt-link to="/" class=" text-white  text-base hover:text-opacity-70 duration-500">datenschutz</nuxt-link>
                 <br>
-                <span class=" text-white font-galano-grotesque font-medium text-base">Social Media</span>
+                <span class=" text-white  text-base">Social Media</span>
                 <a href="/" target="_blank">
                     <img src="/images/linkedIn.svg" alt="linkedIn">
                 </a>
