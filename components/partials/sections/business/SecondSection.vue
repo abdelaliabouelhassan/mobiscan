@@ -3,13 +3,13 @@
     <div class="w-full space-y-24 max-w-[63.1875rem] mx-auto">
       <div class="w-full space-y-4">
         <h1
-          class="text-port-gore text-4xl md:text-[3.125rem] font-galano-grotesque font-medium max-w-[43.6875rem] md:leading-[3.125rem]"
+          class="text-port-gore text-4xl md:text-[3.125rem] font-galano-grotesque-medium font-normal max-w-[43.6875rem] md:leading-[3.125rem]"
         >
           Lorem, ipsum und dolor <br />
           est figum
         </h1>
         <p
-          class="font-galano-grotesque text-dark-grey text-lg md:text-xl font-normal max-w-[37rem] text-start"
+          class=" text-dark-grey text-lg md:text-xl  max-w-[37rem] text-start"
         >
           Lorem ipsum dolor sit amet consectetur. Habitant vitae <br class=" hidden md:block" />
           mauris aliquam sapien habitant vitae. Egestas dignissim <br class=" hidden md:block" />
@@ -22,13 +22,13 @@
       <div class="w-full flex justify-end">
         <div class="space-y-4">
            <h1
-          class="text-port-gore text-4xl md:text-[3.125rem] font-galano-grotesque font-medium max-w-[43.6875rem] md:leading-[3.125rem]"
+          class="text-port-gore text-4xl md:text-[3.125rem] font-galano-grotesque-medium font-normal max-w-[43.6875rem] md:leading-[3.125rem]"
         >
           Lorem, ipsum und dolor <br />
           est figum
         </h1>
         <p
-          class="font-galano-grotesque text-dark-grey text-lg md:text-xl font-normal max-w-[37rem] text-start"
+          class=" text-dark-grey text-lg md:text-xl max-w-[37rem] text-start"
         >
           Lorem ipsum dolor sit amet consectetur. Habitant vitae <br class=" hidden md:block" />
           mauris aliquam sapien habitant vitae. Egestas dignissim <br class=" hidden md:block" />
@@ -59,18 +59,18 @@
           class="flex flex-col items-center lg:items-start  space-y-8 w-full max-w-[30.75rem]"
         >
           <h2
-            class="text-port-gore text-center lg:text-start  font-galano-grotesque font-medium text-4xl md:text-[3.125rem] md:leading-[3.125rem]"
+            class="text-port-gore text-center lg:text-start  font-galano-grotesque-medium font-normal text-4xl md:text-[3.125rem] md:leading-[3.125rem]"
           >
             Vertriebspartner-Programm
           </h2>
-          <p class="text-dark-grey text-center lg:text-start font-galano-grotesque text-lg md:text-xl font-normal">
+          <p class="text-dark-grey text-center lg:text-start text-lg md:text-xl ">
             Lorem ipsum dolor sit amet consectetur. Habitant <br class=" hidden md:block" />
             vitae mauris aliquam sapien habitant vitae. Egestas <br class=" hidden md:block" />
             dignissim ipsum morbi arcu turpis congue <br class=" hidden md:block"/>
             ullamcorper in.
           </p>
           <button
-            class="text-white font-galano-grotesque font-medium uppercase text-base bg-port-gore px-8 py-3 rounded-full hover:scale-110 duration-200"
+            class="text-white font-galano-grotesque-medium font-normal uppercase text-base bg-port-gore px-8 py-3 rounded-full hover:scale-110 duration-200"
           >
             mehr erfahren
           </button>
