@@ -1,8 +1,11 @@
 <template>
-    <div class=" pt-16">
+    <div class="pt-16">
         <HeroSection />
+        <SecondSection />
     </div>
 </template>
 <script setup>
-import HeroSection from '@/components/partials/home/HeroSection.vue'
+import HeroSection from '@/components/partials/sections/home/HeroSection.vue'
+import SecondSection from "@/components/partials/sections/home/SecondSection.vue"
+
 </script>

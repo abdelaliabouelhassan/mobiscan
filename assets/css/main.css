@@ -24,9 +24,9 @@
 
 html{
     /* @apply font-galano-grotesque text-dark-grey; */
-    @apply  text-dark-grey;
+    @apply  text-dark-grey bg-white;
 }
 
 .container{
-    @apply max-w-[76.25rem] mx-auto;
+    @apply max-w-[80rem] mx-auto;
 }
