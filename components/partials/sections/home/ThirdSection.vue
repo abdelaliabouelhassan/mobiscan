@@ -24,7 +24,7 @@
             </button>
         </div>
         <!-- cards -->
-        <div ref="cardsContainer" class="h-[70rem] w-full relative lg:h-[43.5rem] pt-[6.25rem] overflow-hidden box-content">
+        <div ref="cardsContainer" class="w-full relative pt-[6.25rem] overflow-hidden box-content">
             <!--Auftragsbearbeitung card-->
             <div class="w-full absolute transition-all duration-300 ease-in-out overflow-hidden" 
                 :class="{'top-[6.25rem]':activeCard==='Auftragsbearbeitung',

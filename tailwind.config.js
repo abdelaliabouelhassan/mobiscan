@@ -16,6 +16,7 @@ module.exports = {
       fontFamily: {
         'galano-grotesque': ['Galano Grotesque','sans-serif'], //'Galano Grotesque',
         'galano-grotesque-medium': ['Galano Grotesque-medium','sans-serif'],
+        'poppins': ['Poppins', 'sans-serif'],
       },
       colors:{
         'caribbean-green':'#00FFB0',
