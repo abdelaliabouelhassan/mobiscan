@@ -36,7 +36,7 @@
                     <div class="w-full max-w-[63.25rem] mx-auto py-20 grid sm:grid-cols-2 md:grid-cols-3 p-4 max-h-[488px] overflow-y-auto">
                         <div class="flex flex-col space-y-5 md:space-y-3">
                             <h3 class="md:mb-9 mb-5 text-3xl md:leading-10 font-galano-grotesque-medium font-normal">MODULE</h3>
-                            <nuxt-link to="/" class=" text-lg md:text-xl md:leading-8">Auftragsbearbeitung</nuxt-link>
+                            <nuxt-link to="/order_processing" class=" text-lg md:text-xl md:leading-8">Auftragsbearbeitung</nuxt-link>
                             <nuxt-link to="/" class="text-lg md:text-xl md:leading-8">Lager</nuxt-link>
                             <nuxt-link to="/" class="text-lg md:text-xl md:leading-8">Servicemanagement</nuxt-link>
                             <nuxt-link to="/" class="text-lg md:text-xl md:leading-8">Produktionsplanung</nuxt-link>

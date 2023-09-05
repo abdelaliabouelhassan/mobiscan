@@ -1,28 +1,43 @@
 <template>
     <section class="container w-full pt-32 pb-28 px-4">
+        <!-- <div class="w-full grid grid-cols-1 xs:grid-cols-2 lg:flex items-center justify-center gap-6">
+        </div> -->
         <!-- buttons -->
-        <div class="w-full grid grid-cols-1 xs:grid-cols-2 lg:flex items-center justify-center gap-6">
-            <button @click="activeCard='Auftragsbearbeitung'" class="flex font-galano-grotesque-medium font-normal justify-center items-center px-6 py-[0.625rem]  outline  outline-dark-grey rounded-full 
-                tracking-[0.32px] uppercase transition-colors duration-200 ease-in-out hover:text-black hover:outline-black hover:outline-2"
-                :class="{'text-black outline-black outline-2 font-medium':activeCard==='Auftragsbearbeitung' , 'outline-1':activeCard!=='Auftragsbearbeitung'}">
-                Auftragsbearbeitung
-            </button>
-            <button @click="activeCard='LAGER'" class="flex font-galano-grotesque-medium font-normal justify-center items-center px-6 py-[0.625rem]  outline outline-dark-grey rounded-full 
-                tracking-[0.32px] uppercase transition-colors duration-200 ease-in-out hover:text-black hover:outline-black hover:outline-2"
-                :class="{'text-black outline-black outline-2 font-medium':activeCard==='LAGER', 'outline-1':activeCard!=='LAGER'}">
-                LAGER
-            </button>
-            <button @click="activeCard='SERVICEMANAGEMENT'" class="flex font-galano-grotesque-medium font-normal justify-center items-center px-6 py-[0.625rem]  outline outline-dark-grey rounded-full 
-                tracking-[0.32px] uppercase transition-colors duration-200 ease-in-out hover:text-black hover:outline-black hover:outline-2"
-                :class="{'text-black outline-black outline-2 font-medium':activeCard==='SERVICEMANAGEMENT', 'outline-1':activeCard!=='SERVICEMANAGEMENT'}">
-                SERVICEMANAGEMENT
-            </button>
-            <button @click="activeCard='PRODUKTIONSPLANUNG'" class="flex font-galano-grotesque-medium font-normal justify-center items-center px-6 py-[0.625rem]  outline outline-dark-grey rounded-full 
-                tracking-[0.32px] uppercase transition-colors duration-200 ease-in-out hover:text-black hover:outline-black hover:outline-2" 
-                :class="{'text-black outline-black outline-2 font-medium':activeCard==='PRODUKTIONSPLANUNG', 'outline-1':activeCard!=='PRODUKTIONSPLANUNG'}">
-                PRODUKTIONSPLANUNG
-            </button>
-        </div>
+        <Splide  class="w-full flex justify-center items-center" :options="options">
+                
+            <!-- <li class="splide__slide px-3 w-fit"> -->
+            <SplideSlide class="py-1 px-3 w-fit">
+                <button @click="activeCard='Auftragsbearbeitung'" class="flex font-galano-grotesque-medium font-normal justify-center items-center px-6 py-[0.625rem]  outline  outline-dark-grey rounded-full 
+                    tracking-[0.32px] uppercase transition-colors duration-200 ease-in-out hover:text-black hover:outline-black hover:outline-2"
+                    :class="{'text-black outline-black outline-2 font-medium':activeCard==='Auftragsbearbeitung' , 'outline-1':activeCard!=='Auftragsbearbeitung'}">
+                    Auftragsbearbeitung
+                </button>
+            </SplideSlide>
+
+            <SplideSlide class="py-1 px-3 w-fit">
+                <button @click="activeCard='LAGER'" class="flex font-galano-grotesque-medium font-normal justify-center items-center px-6 py-[0.625rem]  outline outline-dark-grey rounded-full 
+                    tracking-[0.32px] uppercase transition-colors duration-200 ease-in-out hover:text-black hover:outline-black hover:outline-2"
+                    :class="{'text-black outline-black outline-2 font-medium':activeCard==='LAGER', 'outline-1':activeCard!=='LAGER'}">
+                    LAGER
+                </button>
+            </SplideSlide>
+            <SplideSlide class="py-1 px-3 w-fit">
+                <button @click="activeCard='SERVICEMANAGEMENT'" class="flex font-galano-grotesque-medium font-normal justify-center items-center px-6 py-[0.625rem]  outline outline-dark-grey rounded-full 
+                    tracking-[0.32px] uppercase transition-colors duration-200 ease-in-out hover:text-black hover:outline-black hover:outline-2"
+                    :class="{'text-black outline-black outline-2 font-medium':activeCard==='SERVICEMANAGEMENT', 'outline-1':activeCard!=='SERVICEMANAGEMENT'}">
+                    SERVICEMANAGEMENT
+                </button>
+            </SplideSlide>
+            <SplideSlide class="py-1 px-3 w-fit">
+                <button @click="activeCard='PRODUKTIONSPLANUNG'" class="flex font-galano-grotesque-medium font-normal justify-center items-center px-6 py-[0.625rem]  outline outline-dark-grey rounded-full 
+                    tracking-[0.32px] uppercase transition-colors duration-200 ease-in-out hover:text-black hover:outline-black hover:outline-2" 
+                    :class="{'text-black outline-black outline-2 font-medium':activeCard==='PRODUKTIONSPLANUNG', 'outline-1':activeCard!=='PRODUKTIONSPLANUNG'}">
+                    PRODUKTIONSPLANUNG
+                </button>
+            </SplideSlide>
+
+                           
+        </Splide>
         <!-- cards -->
         <div ref="cardsContainer" class="w-full relative pt-[6.25rem] overflow-hidden box-content">
             <!--Auftragsbearbeitung card-->
@@ -40,7 +55,7 @@
                         'bg-[#4E467B]':activeCard==='SERVICEMANAGEMENT',
                         'bg-[#5F5692] ':activeCard==='PRODUKTIONSPLANUNG',}">
                     <div class="max-w-[28.75rem] lg:order-2">
-                        <img class="card-img" src="/images/home/third-section-card-img.webp">
+                        <img class="card-img" src="/images/img_1.webp">
                     </div>
                     <div class="w-full lg:order-1 flex flex-col">
                         <div class="text-lg leading-[18px] md:text-2xl font-semibold lg:leading-[50px] pb-2">Auftragsbearbeitung</div>
@@ -70,7 +85,7 @@
                         'bg-[#3A3267]':activeCard==='SERVICEMANAGEMENT',
                         'bg-[#4E467B]':activeCard==='PRODUKTIONSPLANUNG',}">
                     <div class="max-w-[28.75rem] lg:order-2">
-                        <img class="card-img" src="/images/home/third-section-card-img.webp">
+                        <img class="card-img" src="/images/img_1.webp">
                     </div>
                     <div class="w-full lg:order-1 flex flex-col">
                         <div class="text-lg leading-[18px] md:text-2xl font-semibold lg:leading-[50px] pb-2">LAGER</div>
@@ -98,7 +113,7 @@
                     :class="{'bg-port-gore':activeCard==='Auftragsbearbeitung'||activeCard==='LAGER'||activeCard==='SERVICEMANAGEMENT',
                         'bg-[#3A3267]':activeCard==='PRODUKTIONSPLANUNG',}">
                     <div class="max-w-[28.75rem] lg:order-2">
-                        <img class="card-img"  src="/images/home/third-section-card-img.webp">
+                        <img class="card-img"  src="/images/img_1.webp">
                     </div>
                     <div class="w-full lg:order-1 flex flex-col">
                         <div class="text-lg leading-[18px] md:text-2xl font-semibold lg:leading-[50px] pb-2">SERVICEMANAGEMENT</div>
@@ -122,7 +137,7 @@
                 <div ref="produktionsplanung_content" class="bg-port-gore w-full flex flex-col items-center text-white gap-16 py-10 px-8  rounded-[3.125rem] 
                             xs:px-10 xs:py-14 md:px-[4.625rem]  lg:flex-row lg:justify-between">
                     <div class="max-w-[28.75rem] lg:order-2">
-                        <img class="card-img" src="/images/home/third-section-card-img.webp">
+                        <img class="card-img" src="/images/img_1.webp">
                     </div>
                     <div class="w-full lg:order-1 flex flex-col">
                         <div class="text-lg leading-[18px] md:text-2xl font-semibold lg:leading-[50px] pb-2">PRODUKTIONSPLANUNG</div>
@@ -145,7 +160,22 @@
     </section>
 </template>
 <script setup>
+import { Splide,SplideSlide } from '@splidejs/vue-splide';
+const options = reactive({
+    rewind:false,
+    arrows:false,
+    pagination: false,
+    drag:false,
+    perMove:1,
+    autoWidth:true,
+    breakpoints:{
+        1024:{
+            drag:true,
+        }
+    }
+   
 
+})
 const activeCard = ref('Auftragsbearbeitung')
 
 const cardsContainer = ref(null)
