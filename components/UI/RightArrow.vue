@@ -19,8 +19,8 @@
     right: 0;
     padding: 12px;
     background: white;
-    width: auto;
-    height: auto;
+    /* width: auto;
+    height: auto; */
     transform: translateY(0);
     border: 1px solid #2B2161;
 }

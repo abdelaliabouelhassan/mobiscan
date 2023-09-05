@@ -1,13 +1,17 @@
 <template>
-    <section class="mt-40 pb-40 bg-gradient-to-b  from-white to-[#F6F6F6]">
-        <h1 class="w-full text-center text-port-gore ">Testimonials</h1>
-        <Splide class="mt-[4.625rem] pb-10 hidden w-full container md:flex justify-center items-center px-2 lg:gap-x-14 lg-px-0" :has-track="false" :options="options">
+    <section class="pt-28 pb-24 bg-gradient-to-b  from-white to-[#F6F6F6]">
+        <div class="w-full container px-4">
+            <SalesForm />
+        </div>
+        <h1 class="w-full text-center text-port-gore pt-40">Testimonials</h1>
+        <Splide class="mt-[4.625rem] relative pb-10  w-full container px-10 mx-auto flex justify-between" :has-track="false" :options="options">
                 
-                <LeftArrow class="shrink-0"/>
-                <div  class="slide-wrapper ">
-                    <div class="splide__track overflow-visible ">
-                            <ul class="splide__list ">
-
+                
+                <LeftArrow class="shrink-0 absolute top-20 left-0"/>
+                <div  class="slide-wrapper shrink ">
+                    <div class="splide__track shrink ">
+                        
+                            <ul class="splide__list shrink">
                 
                                 <li class="splide__slide h-auto">
                                      <TestimonialCard class="">
@@ -124,18 +128,21 @@
                             </ul>   
                     </div>
                 </div>
+                <RightArrow class="shrink-0 absolute top-20 right-0"/>
                 <ul class="splide__pagination"></ul>
-                <RightArrow class="shrink-0"/>
+                
             </Splide>
        
         
     </section>
 </template>
 <script setup>
+import SalesForm from "@/components/partials/includes/SalesForm.vue"
 import TestimonialCard from "@/components/UI/TestimonialCard.vue";
 import { Splide } from '@splidejs/vue-splide';
 import RightArrow from '@/components/UI/RightArrow.vue'
 import LeftArrow from '@/components/UI/LeftArrow.vue'
+
 const options = reactive({
     rewind:false,
     perMove: 1,
@@ -146,8 +153,8 @@ const options = reactive({
     gap:'32px',
     trimSpace: false,
     breakpoints: {
-		1024: {
-			perPage: 4,
+		768: {
+			perPage: 1,
 		},
     }
 

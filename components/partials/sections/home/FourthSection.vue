@@ -153,7 +153,7 @@
     </section>
 </template>
 <script setup>
-import Handshake  from "@/components/UI/Handshake.vue";
+import Handshake  from "~/components/partials/includes/Handshake.vue";
 import { Splide } from '@splidejs/vue-splide';
 import RightArrow from '@/components/UI/RightArrow.vue'
 import LeftArrow from '@/components/UI/LeftArrow.vue'

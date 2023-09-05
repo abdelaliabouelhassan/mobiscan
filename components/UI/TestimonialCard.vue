@@ -21,7 +21,7 @@
 
 <style scoped>
 .drop_shadow{
-  
-filter: drop-shadow(-8px -8px 24px rgba(0, 0, 0, 0.05))
+    filter: drop-shadow(-8px -8px 24px rgba(0, 0, 0, 0.05))
+
 }
 </style>

@@ -1,5 +1,5 @@
 <template>
-<div>
+<div class="">
     <div class="custom-slide-arrows splide__arrows" style="position: relative">
         <button class="splide__arrow splide__arrow--prev w-12 h-12 flex items-center justify-center text-2xl text-primary rounded-full border-primary
                     hover:text-white hover:bg-primary highlight transition-all duration-150 ease-linear hover:border-primary">
@@ -19,8 +19,8 @@
     right: 0;
     padding: 12px;
     background: white;
-    width: auto;
-    height: auto;
+    /* width: auto;
+    height: auto; */
     transform: translateY(0);
     border: 1px solid #2B2161;
 }
