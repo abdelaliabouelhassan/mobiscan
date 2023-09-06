@@ -1,5 +1,5 @@
 <template>
-    <section class="bg-gradient-to-b  to-white from-[#F6F6F6]">
+    <section class="bg-gradient-to-b to-white from-[#F6F6F6] pt-36 pb-28">
         <div class="w-full container px-4">
             <h2 class="text-port-gore max-w-[32rem] mx-auto text-center">Endecken Sie unsere weiteren Module</h2>
 

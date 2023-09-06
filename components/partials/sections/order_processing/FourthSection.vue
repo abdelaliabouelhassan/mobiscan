@@ -1,5 +1,5 @@
 <template>
-    <section class="pt-20 sm:pt-24 lg:pt-32 pb-36">
+    <section class="pt-20 sm:pt-24 lg:pt-32">
         <!-- buttons -->
         <Splide class="pt-[4.75rem] w-full container flex justify-center items-center" :options="options">
                 
@@ -75,9 +75,8 @@
                         </div>
                     </div>
                 </div>
-            </transition>
-            <transition name="card">
-                <div v-if="activeCard === 'Verkauf / Auftragswesen'" class="w-  container px-4">
+
+                <div v-else-if="activeCard === 'Verkauf / Auftragswesen'" class="w-  container px-4">
                     <div class="flex flex-col gap-y-10 lg:gap-x-5 lg:flex-row lg:items-center lg:justify-between">
                         <div class="w-full max-w-[36.5rem] flex justify-center self-center lg:self-start">
                             <img class="card-img w-full transition-all duration-1000 ease" src="/images/order_processing/laptop-2.webp">
@@ -85,6 +84,28 @@
                         <div class="w-full flex flex-col lg:items-center">
                             <div>
                                 <h2>Verkauf / Auftragswesen</h2>
+                                <ul class="list-disc list-inside pl-2">
+                                    <li > Artikel-­ und Leistungsstammdaten</li>
+                                    <li> Artikelvarianten, Produkte­-Sets und Stücklisten</li>
+                                    <li> Zubehör-­, Ersatz­- und Auswahlprodukte</li>
+                                    <li> Flexibles Preis­ und Rabattsystem inkl. Preiskalkulation</li>
+                                    <li> Verwaltung von Chargen­-/Seriennummern</li>
+                                    <li> Benutzermasken inkl. Lese­-/Schreibberech­tigung</li>
+                                    <li> Debitoren­-, Kreditoren-­, Konten­- und Kosten­stellenstammdaten</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div v-else-if="activeCard === 'Einkauf / Bestellwesen'" class="w-  container px-4">
+                    <div class="flex flex-col gap-y-10 lg:gap-x-5 lg:flex-row lg:items-center lg:justify-between">
+                        <div class="w-full max-w-[36.5rem] flex justify-center self-center lg:self-start">
+                            <img class="card-img w-full transition-all duration-1000 ease" src="/images/order_processing/laptop-2.webp">
+                        </div>
+                        <div class="w-full flex flex-col lg:items-center">
+                            <div>
+                                <h2>Einkauf / Bestellwesen</h2>
                                 <ul class="list-disc list-inside pl-2">
                                     <li > Artikel-­ und Leistungsstammdaten</li>
                                     <li> Artikelvarianten, Produkte­-Sets und Stücklisten</li>

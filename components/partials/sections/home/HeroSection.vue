@@ -1,13 +1,14 @@
 <template>
-    <section class="w-full overflow-hidden bg-gradient-to-b from-[#F6F6F6] to-white pt-16">
-        <div class="w-full flex pt-12 container pl-8 gap-x-6 overflow-visible">
-            <div class="flex flex-col gap-y-[3.75rem] w-[57%] shrink-0 ">
-                <h1 class="text-[150px] leading-[130px] tracking-[3px] font-galano-grotesque-medium">
+    <section class="w-full overflow-hidden bg-gradient-to-b from-[#F6F6F6] to-white pt-24 md:pt-16">
+        <div class="w-full flex pt-12 container px-4 md:px-8 gap-x-6 overflow-visible">
+            <div class="flex flex-col w-full lg:w-[63%] xl:w-[58%]  shrink-0 ">
+                <h1 class="text-6xl xs:text-7xl xs:leading-[72px] sm:text-9xl xl:text-[150px] sm:leading-[130px] tracking-[3px] font-galano-grotesque-medium">
                     <span class="text-caribbean-green">SCAN TO </span><br>
                     <span class="text-port-gore">ABACUS</span>
                 </h1>
-                <div class="ml-[7.125rem] flex flex-col gap-y-10">
-                    <div class="text-3xl">
+            
+                <div class="mt-6 sm:mt-8 lg:mt-[3.75rem] lg:ml-[7.125rem] flex flex-col gap-y-6 sm:gap-y-8 lg:gap-y-10">
+                    <div class="text-xl sm:text-2xl lg:text-3xl">
                         Lorem ipsum dolor sit amet<br> consectetur. Habitant vitae<br> mauris aliquam sapien habitant<br> vitae. 
                     </div>
                     <button class="w-fit bg-caribbean-green flex justify-center items-center px-6 py-[0.625rem] text-port-gore rounded-full 
@@ -17,7 +18,7 @@
                     </button>
                         
                 </div>
-                <div class="ml-[7.125rem] relative flex rounded-[3rem] overflow-hidden">
+                <div class="lg:ml-[7.125rem] mt-[3.75rem]  relative flex rounded-[3rem] overflow-hidden max-w-xl self-center lg:self-start">
                     <img class="w-full h-full object-cover  " src="/images/home/hero-section-video-img.webp" alt="" srcset="">
                     <div class="video-background z-10 w-full h-full absolute top-0 left-0 flex items-center justify-center">
                         <button >
@@ -30,7 +31,7 @@
                     
                 </div>
             </div>
-            <div class="h-auto grow">
+            <div class="h-auto grow hidden lg:block">
                 <img class="z-0 h-full object-cover object-left-top overflow-visible" src="/images/home/mobile_device.webp" alt="" srcset="">
             </div>
         </div>
