@@ -1,5 +1,5 @@
 <template>
-    <section class="container w-full pt-32 pb-28 px-4">
+    <section class="container w-full pt-32 pb-28 px-4 md:px-8">
         <!-- <div class="w-full grid grid-cols-1 xs:grid-cols-2 lg:flex items-center justify-center gap-6">
         </div> -->
         <!-- buttons -->
@@ -7,7 +7,7 @@
                 
             <!-- <li class="splide__slide px-3 w-fit"> -->
             <SplideSlide class="py-1 px-3 w-fit">
-                <button @click="activeCard='Auftragsbearbeitung'" class="flex font-galano-grotesque-medium font-normal justify-center items-center px-6 py-[0.625rem]  outline  outline-dark-grey rounded-full 
+                <button @click="activeCard='Auftragsbearbeitung'" class="text-sm md:text-base flex font-galano-grotesque-medium font-normal justify-center items-center px-6 py-[0.625rem]  outline  outline-dark-grey rounded-full 
                     tracking-[0.32px] uppercase transition-colors duration-200 ease-in-out hover:text-black hover:outline-black hover:outline-2"
                     :class="{'text-black outline-black outline-2 font-medium':activeCard==='Auftragsbearbeitung' , 'outline-1':activeCard!=='Auftragsbearbeitung'}">
                     Auftragsbearbeitung
@@ -15,21 +15,21 @@
             </SplideSlide>
 
             <SplideSlide class="py-1 px-3 w-fit">
-                <button @click="activeCard='LAGER'" class="flex font-galano-grotesque-medium font-normal justify-center items-center px-6 py-[0.625rem]  outline outline-dark-grey rounded-full 
+                <button @click="activeCard='LAGER'" class="text-sm md:text-base flex font-galano-grotesque-medium font-normal justify-center items-center px-6 py-[0.625rem]  outline outline-dark-grey rounded-full 
                     tracking-[0.32px] uppercase transition-colors duration-200 ease-in-out hover:text-black hover:outline-black hover:outline-2"
                     :class="{'text-black outline-black outline-2 font-medium':activeCard==='LAGER', 'outline-1':activeCard!=='LAGER'}">
                     LAGER
                 </button>
             </SplideSlide>
             <SplideSlide class="py-1 px-3 w-fit">
-                <button @click="activeCard='SERVICEMANAGEMENT'" class="flex font-galano-grotesque-medium font-normal justify-center items-center px-6 py-[0.625rem]  outline outline-dark-grey rounded-full 
+                <button @click="activeCard='SERVICEMANAGEMENT'" class="text-sm md:text-base flex font-galano-grotesque-medium font-normal justify-center items-center px-6 py-[0.625rem]  outline outline-dark-grey rounded-full 
                     tracking-[0.32px] uppercase transition-colors duration-200 ease-in-out hover:text-black hover:outline-black hover:outline-2"
                     :class="{'text-black outline-black outline-2 font-medium':activeCard==='SERVICEMANAGEMENT', 'outline-1':activeCard!=='SERVICEMANAGEMENT'}">
                     SERVICEMANAGEMENT
                 </button>
             </SplideSlide>
             <SplideSlide class="py-1 px-3 w-fit">
-                <button @click="activeCard='PRODUKTIONSPLANUNG'" class="flex font-galano-grotesque-medium font-normal justify-center items-center px-6 py-[0.625rem]  outline outline-dark-grey rounded-full 
+                <button @click="activeCard='PRODUKTIONSPLANUNG'" class="text-sm md:text-base flex font-galano-grotesque-medium font-normal justify-center items-center px-6 py-[0.625rem]  outline outline-dark-grey rounded-full 
                     tracking-[0.32px] uppercase transition-colors duration-200 ease-in-out hover:text-black hover:outline-black hover:outline-2" 
                     :class="{'text-black outline-black outline-2 font-medium':activeCard==='PRODUKTIONSPLANUNG', 'outline-1':activeCard!=='PRODUKTIONSPLANUNG'}">
                     PRODUKTIONSPLANUNG

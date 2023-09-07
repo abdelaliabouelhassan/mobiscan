@@ -1,16 +1,10 @@
 <template>
-     <div class=" w-full h-full ">
-      <div class=" w-full  bg-gradient-to-b px-4 from-[#F6F6F6] to-white">
-           <div class=" w-full max-w-[76.25rem] mx-auto ">
+    <div class=" w-full h-full ">
            <FirstSection />
-        </div>
-      </div>
         <div class=" w-full bg-gradient-to-b px-4 from-[#F6F6F6] to-white">
-         <div class=" w-full max-w-[76.25rem] mx-auto ">
              <SecondSection />
              <ThirdSection />
          </div>
-        </div>
    </div>
 </template>
 

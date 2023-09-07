@@ -1,13 +1,14 @@
 <template>
     <section class="pt-28 pb-24 bg-gradient-to-b  from-white to-[#F6F6F6]">
-        <div class="w-full container px-4">
+        <div class="w-full container px-4 md:px-8">
             <SalesForm />
         </div>
+        <!-- testimonials -->
         <h1 class="w-full text-center text-port-gore pt-40">Testimonials</h1>
-        <Splide class="mt-[4.625rem] relative pb-10 px-10 w-full container mx-auto flex justify-between" :has-track="false" :options="options">
-            <LeftArrow class="shrink-0 absolute top-20 left-2"/>
+        <Splide class="mt-[4.625rem] relative pb-10 sm:px-6 md:px-10 w-full container mx-auto flex justify-between" :has-track="false" :options="options">
+            <LeftArrow class="hidden md:block shrink-0 absolute top-20 left-2"/>
             <div  class="slide-wrapper shrink w-full ">
-                <div class="splide__track w-full !px-6 ">
+                <div class="splide__track w-full !px-4 md:!px-6 ">
                     <ul class="splide__list shrink">
                         <li class="splide__slide h-auto">
                                 <TestimonialCard class="">
@@ -125,11 +126,10 @@
                     </ul>   
                 </div>
             </div>
-            <RightArrow class="shrink-0 absolute top-20 right-2"/>
+            <RightArrow class="hidden md:block shrink-0 absolute top-20 right-2"/>
             <ul class="splide__pagination"></ul>
             
         </Splide>
-        
     </section>
 </template>
 <script setup>
@@ -144,14 +144,15 @@ const options = reactive({
     perMove: 1,
     arrows:true,
     pagination: true,
-    drag:'free',
+    drag:true,
     perPage: 2,
-    gap:'40px',
+    gap:'30px',
     trimSpace: false,
     breakpoints: {
 		1024: {
 			perPage: 1,
 		},
+        
     }
 
 })

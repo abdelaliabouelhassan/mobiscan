@@ -1,10 +1,10 @@
 <template>
     <section class="bg-gradient-to-b from-[#F6F6F6] to-white pt-20 sm:pt-24 lg:pt-32 pb-36">
-        <div class="text-center w-full container px-4">
-            <h2 class="text-port-gore">Ihr Nutzen</h2>
+        <div class="text-center w-full container px-4 md:px-8">
+            <h1 class="text-4xl leading-9 sm:text-4xl sm:leading-9 lg:text-[3.125rem] lg:leading-[3.125rem] text-port-gore">Ihr Nutzen</h1>
             <p class="mt-6 sm:text-lg lg:text-xl lg:mt-10 max-w-[51.625rem] mx-auto">Die Auftrags­bearbeitung ist das Herz­stück der integrierten MOBISCAN Applikation. Zudem zeichnet sich die Applikation durch folgende Vorteile aus:</p>
         </div>
-        <div class="container px-4 grid grid-cols-1 lg:gap-6 xl:gap-8 gap-y-8 justify-center justify-items-center lg:grid-cols-3 mt-16">
+        <div class="container px-4 md:px-8 grid grid-cols-1 gap-y-8 lg:gap-6 xl:gap-8 justify-center justify-items-center lg:grid-cols-3 mt-16">
             <AdvantageCard>
                 <template #img>
                     <svg width="159" height="160" viewBox="0 0 159 160" fill="none" xmlns="http://www.w3.org/2000/svg">

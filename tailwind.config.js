@@ -24,7 +24,9 @@ module.exports = {
         'port-gore-dark':"#251F47",
         'dark-grey':'#4F4F4F',
         'light-dark-grey':'#B7B7B7',
-        'lilac':'#5345AC'
+        'lilac':'#5345AC',
+        'persian-green' :'#00A399'
+
       }
     },
   },

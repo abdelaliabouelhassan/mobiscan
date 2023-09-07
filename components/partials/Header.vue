@@ -43,9 +43,9 @@
                         </div>
                         <div class="flex flex-col  space-y-5 md:space-y-3 pt-10 sm:pt-0">
                             <h3 class="md:mb-9 mb-5  text-3xl md:leading-10 font-galano-grotesque-medium font-normal">VERTRIEB</h3>
-                            <nuxt-link to="/" class="text-lg md:text-xl md:leading-8">Vertriebsparter-Programm</nuxt-link>
-                            <nuxt-link to="/" class="text-lg md:text-xl md:leading-8">Vertriebspartner finden</nuxt-link>
-                            <nuxt-link to="/" class="text-lg md:text-xl md:leading-8">Vertriebspartner werden</nuxt-link>
+                            <nuxt-link to="/find-sales-partners" class="text-lg md:text-xl md:leading-8">Vertriebsparter-Programm</nuxt-link>
+                            <nuxt-link to="/find-sales-partners" class="text-lg md:text-xl md:leading-8">Vertriebspartner finden</nuxt-link>
+                            <nuxt-link to="/sales-partner" class="text-lg md:text-xl md:leading-8">Vertriebspartner werden</nuxt-link>
                         </div>
                         <div class="flex flex-col  space-y-5 md:space-y-3 pt-10 md:pt-0">
                             <h3 class="md:mb-9 mb-5 text-3xl md:leading-10 font-galano-grotesque-medium font-normal">UNTERNEHMEN</h3>

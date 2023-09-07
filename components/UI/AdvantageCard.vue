@@ -3,10 +3,10 @@
         <div>
             <slot name="img" />
         </div>
-        <div class="text-xl sm:text-2xl lg:text-3xl font-galano-grotesque-medium mt-10">
+        <div class="text-2xl sm:text-3xl font-galano-grotesque-medium mt-10">
             <slot name="title" />
         </div>        
-        <div class="sm:text-lg lg:text-xl mt-5">
+        <div class="text-lg sm:text-xl mt-5">
             <slot name="description" />
         </div>
     </div>

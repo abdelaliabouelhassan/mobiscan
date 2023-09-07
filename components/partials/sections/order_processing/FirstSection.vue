@@ -16,7 +16,7 @@
         <div class="pt-40 lg:pt-28 pb-[5.625rem] flex flex-col container w-full px-4 md:px-16 lg:flex-row gap-y-14 lg:gap-x-8">
             <div class="lg:pl-9">
                 <h2 class="text-port-gore">Auftragssoftware schafft Mehrwert</h2>
-                <h3 class="text-xl leading-6 sm:text-2xl sm:leading-8 text-port-gore lg:text-3xl lg:leading-10 mt-8">Die Auftragsbearbeitung ist das Herzstück der integrierten MOBISCAN Applikation.</h3>
+                <h3 class=" text-port-gore text-xl leading-6 sm:text-2xl sm:leading-8 lg:text-3xl lg:leading-10 mt-8">Die Auftragsbearbeitung ist das Herzstück der integrierten MOBISCAN Applikation.</h3>
                 <p class="mt-10 lg:text-xl">
                     Lorem ipsum dolor sit amet consectetur. Viverra est cursus ac tellus egestas. Sollicitudin gravida quam ut cras laoreet. Diam libero aliquet ut nunc libero. Fringilla facilisis dictum euismod congue sodales a nulla scelerisque in. Placerat ipsum tincidunt scelerisque morbi ultrices.
                     Lorem ipsum dolor sit amet consectetur. Viverra est cursus ac tellus egestas. Sollicitudin gravida quam ut cras laoreet. Diam libero aliquet ut nunc libero. Fringilla facilisis dictum euismod congue sodales a nulla scelerisque in. Placerat ipsum tincidunt scelerisque morbi ultrices.

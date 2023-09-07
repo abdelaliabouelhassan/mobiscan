@@ -21,8 +21,8 @@
                 <div class="lg:ml-[7.125rem] mt-[3.75rem]  relative flex rounded-[3rem] overflow-hidden max-w-xl self-center lg:self-start">
                     <img class="w-full h-full object-cover  " src="/images/home/hero-section-video-img.webp" alt="" srcset="">
                     <div class="video-background z-10 w-full h-full absolute top-0 left-0 flex items-center justify-center">
-                        <button >
-                            <svg width="107" height="108" viewBox="0 0 107 108" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <button class="w-20 h-20 sm:w-24 sm:h-24 flex items-center justify-center">
+                            <svg class="w-full h-full" viewBox="0 0 107 108" fill="none" xmlns="http://www.w3.org/2000/svg">
                                 <circle cx="53.3786" cy="53.9653" r="52.3092" stroke="white" stroke-width="2"/>
                                 <path d="M71.435 53.9653L44.9953 79.2828L44.9953 28.6478L71.435 53.9653Z" stroke="white" stroke-width="2" stroke-linejoin="round"/>
                             </svg>

@@ -1,5 +1,6 @@
 <template>
- <!-- companies grid -->
+    <div>
+        <!-- companies grid -->
       <div class="grid grid-cols-3 gap-6 px-4 pt-8 justify-items-center md:hidden">
         <div class="shrink-0 flex justify-center items-center px-2 xs:px-4 max-w-[8rem]">
             <svg class="w-full h-full" width="152" height="50" viewBox="0 0 152 50" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -51,7 +52,7 @@
 
         
       </div>
-      <Splide  class="pt-[4.75rem] hidden md:flex justify-center items-center gap-x-4 px-2 lg:gap-x-4 lg-px-0" :has-track="false" :options="options">
+      <Splide  class="pt-[4.75rem] w-full container hidden md:flex justify-center items-center gap-x-4 px-2 lg:gap-x-4 lg-px-0" :has-track="false" :options="options">
                 <LeftArrow class="shrink-0"/>
                 <div  class="slide-wrapper  w-full container">
                     <div class="splide__track">
@@ -116,6 +117,7 @@
                 </div>
                 <RightArrow class="shrink-0"/>
       </Splide>
+    </div>
 </template>
 
 <script setup>

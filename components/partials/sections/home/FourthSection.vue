@@ -3,8 +3,8 @@
         <div class="container">
             <h1 class="w-full text-center text-port-gore ">Vertiebspartner</h1>
             
-            <div class="w-full flex flex-col items-center text-port-gore gap-16 py-10 px-8  rounded-[3.125rem] mt-14
-                        xs:px-10 xs:py-14 md:px-[4.625rem]  lg:flex-row lg:justify-between">
+            <div class="w-full flex flex-col items-center text-port-gore gap-16 py-10 px-4  rounded-[3.125rem] mt-14
+                        xs:py-14 md:px-8 lg:flex-row lg:justify-between">
                 <div class="self-center lg:w-full relative flex lg:justify-center">
                     <!--Handshake-->
                     <div class="z-0 w-[16rem] xs:w-[24.125rem] aspect-square card-drop p-6 rounded-[3.125rem] bg-white md:p-2 flex relative">
@@ -28,7 +28,9 @@
 
             </div>
 
-            <div class="text-light-dark-grey font-poppins text-xl text-center mt-20">Diese Vertriebspartner setzen bereits auf MobiScan</div>
+            <div class="text-light-dark-grey font-poppins text-xl text-center mt-20 px-4 md:px-8">
+                Diese Vertriebspartner setzen bereits auf MobiScan
+            </div>
             <CompaniesSlide />
         </div>
 
