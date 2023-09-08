@@ -53,7 +53,7 @@
                     </label>
                     <label for="Datenschutzerklärung" class=" text-white lg:text-xl font-normal ">Ich habe die Datenschutzerklärung zur Kenntnis genommen.</label>
                 </div>
-                <button type="submit" class=" bg-caribbean-green text-port-gore text-base font-galano-grotesque-medium rounded-full px-6 py-3 hover:bg-opacity-60 hover:scale-110 duration-300">
+                <button type="submit" class=" bg-caribbean-green text-port-gore text-base font-galano-grotesque-medium rounded-full px-6 py-3 hover:bg-opacity-60 duration-300">
                     Senden
                 </button>
             </div>
