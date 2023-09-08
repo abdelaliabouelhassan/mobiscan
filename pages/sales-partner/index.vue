@@ -1,7 +1,7 @@
 <template>
     <div class=" w-full h-full ">
            <FirstSection />
-        <div class=" w-full bg-gradient-to-b px-4 from-[#F6F6F6] to-white">
+        <div class=" w-full bg-gradient-to-b from-[#F6F6F6] to-white">
              <SecondSection />
              <ThirdSection />
          </div>

@@ -1,18 +1,22 @@
 <template>
-    <section class=" w-full bg-white  rounded-[3.125rem] px-4 md:px-24 pt-36 pb-32 md:pb-48 lg:pb-20 space-y-10 lg:space-y-32 lg:space-x-8 relative">
-        <h1 class=" text-port-gore text-6xl md:text-[5rem] font-galano-grotesque-medium font-normal">Über uns</h1>
-        <p class=" max-w-[37rem] w-full  text-port-gore text-xl md:text-3xl">
-            Lorem ipsum dolor sit amet consectetur. Enim quam porta tortor cursus adipiscing nunc tellus nunc sed.
+
+    <section class="container w-full bg-white  rounded-[3.125rem] px-4 pb-32 xs:pb-40 md:px-16 pt-36 lg:pb-32 relative">
+        <h1 class=" text-port-gore ">Über uns</h1>
+        <p class=" text-xl sm:text-2xl pt-10 lg:pt-[3.25rem] lg:text-3xl lg:pl-9">
+            Lorem ipsum dolor sit amet consectetur.<br class="hidden xs:block">
+                Enim quam porta tortor cursus<br class="hidden xs:block">
+                adipiscing nunc tellus nunc sed.
         </p>
 
-        <div class=" w-[14rem] card-drop p-6 h-[14rem] md:w-[19.5625rem] md:h-[19.5625rem] rounded-[3.125rem] bg-white md:p-2 absolute  -bottom-28 md:-bottom-36 right-7 xl:right-16 flex">
-            <div class=" m-auto max-w-[13.91688rem] max-h-[9.0605rem] w-full h-full">
+        <div class="drop_shadow p-8 box-content bg-white aspect-square flex items-center justify-center rounded-[3.125rem] absolute 
+                -bottom-28 right-1/2 translate-x-1/2 
+                sm:-bottom-32 
+                lg:-bottom-28 lg:right-16 lg:translate-x-0 
+                w-40 sm:w-48 lg:w-[15.625rem]">
                 <img
                     src="/images/business/M.svg"
-                    class="m-auto w-full h-full object-cover"
-                    alt=""
+                    class="object-contain"
                 />
-            </div>
         </div>
     </section>
 </template>

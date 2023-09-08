@@ -2,13 +2,16 @@
     <section class="bg-gradient-to-b from-[#F6F6F6] to-white">
         <div class="container w-full bg-port-gore  text-white  rounded-[3.125rem] px-4 pb-40 md:px-16 pt-36 lg:pb-32 relative">
             <h1 class="hyphens-auto ">Auftragsbear&shy;beitung</h1>
-            <div class="text-xl sm:text-2xl pt-10 max-w-[37rem] lg:pt-[8.25rem] lg:text-3xl lg:pl-9">
-                Die Software für integrierte Auftrags bearbeitung & Lagerverwaltung
-            </div>
-            <div class="drop_shadow p-8 box-content bg-white w-fit aspect-square flex items-center justify-center rounded-full absolute 
+            <h2 class="text-xl sm:text-2xl pt-10 max-w-[37rem] lg:pt-[8.25rem] lg:text-3xl lg:pl-9">
+                Die Software für integrierte Auftrags<br class="hidden xs:block">
+                 bearbeitung & Lagerverwaltung
+            </h2>
+            <div class="drop_shadow p-8 box-content bg-white aspect-square flex items-center justify-center rounded-full absolute 
                 -bottom-28 right-1/2 translate-x-1/2 
-                lg:-bottom-28 lg:right-16 lg:translate-x-0">
-                <img class="w-44 lg:w-[13.625rem]" src="/images/img_1.webp"> 
+                sm:-bottom-32 
+                lg:-bottom-28 lg:right-16 lg:translate-x-0
+                w-40 sm:w-48 lg:w-[15.625rem]">
+                <img class="object-contain" src="/images/img_1.webp"> 
             </div>
         </div>
         

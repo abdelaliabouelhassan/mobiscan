@@ -5,7 +5,7 @@
                 <nuxt-link to="/" class="h-8">
                     <img class="h-full  object-center" src="/images/logo/logo.svg" alt="" srcset="">
                 </nuxt-link>
-                <button @click="showMenu =!showMenu" class=" hidden md:flex font-galano-grotesque-medium font-normal justify-center items-center px-6 py-[0.625rem]  border  rounded-full 
+                <button @click="showMenu =!showMenu" class="menu-btn  hidden md:flex font-galano-grotesque-medium font-normal justify-center items-center px-6 py-[0.625rem]  border  rounded-full 
                         tracking-[0.32px] uppercase transition-colors duration-300 ease-in-out
                          " :class="{'bg-port-gore text-white':showMenu,'text-port-gore border-port-gore bg-white md:hover:bg-port-gore md:hover:text-white':!showMenu}">
                         MENU
@@ -17,7 +17,7 @@
                 </button>
 
                 <div class=" w-full flex md:hidden items-center justify-between">
-                    <button @click="showMenu =!showMenu" class=" flex  font-galano-grotesque-medium font-normal justify-center items-center px-6 py-[0.625rem]  border  rounded-full 
+                    <button @click="showMenu =!showMenu"  class="menu-btn flex  font-galano-grotesque-medium font-normal justify-center items-center px-6 py-[0.625rem]  border  rounded-full 
                         tracking-[0.32px] uppercase transition-colors duration-300 ease-in-out
                          " :class="{'bg-port-gore text-white':showMenu,'text-port-gore border-port-gore bg-white md:hover:bg-port-gore md:hover:text-white':!showMenu}">
                         MENU
@@ -31,21 +31,21 @@
             </nav>
             <!-- menu -->
             <transition name="menu">
-                <div v-if="showMenu" class="z-40 absolute top-0 left-0 w-full pt-[4.75rem] bg-port-gore text-white rounded-b-[2.5rem] 
+                <div v-if="showMenu" class="menu z-40 absolute top-0 left-0 w-full pt-[4.75rem] bg-port-gore text-white rounded-b-[2.5rem] 
                         transition-all duration-300 ease-in-out">
-                    <div class="w-full max-w-[63.25rem] mx-auto py-20 grid sm:grid-cols-2 md:grid-cols-3 p-4 max-h-[488px] overflow-y-auto">
+                    <div class="w-full max-w-[63.25rem] gap-x-8 gap-y-12 mx-auto py-20 grid sm:grid-cols-2 lg:grid-cols-3 p-4 max-h-[488px] overflow-y-auto">
                         <div class="flex flex-col space-y-5 md:space-y-3">
                             <h3 class="md:mb-9 mb-5 text-3xl md:leading-10 font-galano-grotesque-medium font-normal">MODULE</h3>
-                            <nuxt-link to="/order_processing" class=" text-lg md:text-xl md:leading-8">Auftragsbearbeitung</nuxt-link>
-                            <nuxt-link to="/" class="text-lg md:text-xl md:leading-8">Lager</nuxt-link>
-                            <nuxt-link to="/" class="text-lg md:text-xl md:leading-8">Servicemanagement</nuxt-link>
-                            <nuxt-link to="/" class="text-lg md:text-xl md:leading-8">Produktionsplanung</nuxt-link>
+                            <nuxt-link @click="showMenu =!showMenu" to="/order_processing" class=" text-lg md:text-xl md:leading-8">Auftragsbearbeitung</nuxt-link>
+                            <nuxt-link @click="showMenu =!showMenu" to="/" class="text-lg md:text-xl md:leading-8">Lager</nuxt-link>
+                            <nuxt-link @click="showMenu =!showMenu" to="/" class="text-lg md:text-xl md:leading-8">Servicemanagement</nuxt-link>
+                            <nuxt-link @click="showMenu =!showMenu" to="/" class="text-lg md:text-xl md:leading-8">Produktionsplanung</nuxt-link>
                         </div>
                         <div class="flex flex-col  space-y-5 md:space-y-3 pt-10 sm:pt-0">
                             <h3 class="md:mb-9 mb-5  text-3xl md:leading-10 font-galano-grotesque-medium font-normal">VERTRIEB</h3>
-                            <nuxt-link to="/find-sales-partners" class="text-lg md:text-xl md:leading-8">Vertriebsparter-Programm</nuxt-link>
-                            <nuxt-link to="/find-sales-partners" class="text-lg md:text-xl md:leading-8">Vertriebspartner finden</nuxt-link>
-                            <nuxt-link to="/sales-partner" class="text-lg md:text-xl md:leading-8">Vertriebspartner werden</nuxt-link>
+                            <nuxt-link @click="showMenu =!showMenu" to="/sales-partner" class="text-lg md:text-xl md:leading-8">Vertriebsparter-Programm</nuxt-link>
+                            <nuxt-link @click="showMenu =!showMenu" to="/find-sales-partners" class="text-lg md:text-xl md:leading-8">Vertriebspartner finden</nuxt-link>
+                            <nuxt-link @click="showMenu =!showMenu" to="/sales-partner" class="text-lg md:text-xl md:leading-8">Vertriebspartner werden</nuxt-link>
                         </div>
                         <div class="flex flex-col  space-y-5 md:space-y-3 pt-10 md:pt-0">
                             <h3 class="md:mb-9 mb-5 text-3xl md:leading-10 font-galano-grotesque-medium font-normal">UNTERNEHMEN</h3>
@@ -63,6 +63,16 @@
 <script setup>
 
 const showMenu = ref(false)
+
+onMounted(() => {
+    window.addEventListener('click',(event)=>{
+        let isMenu = !!event.target.closest('.menu')
+        let isMenuBtn = !!event.target.classList.contains('menu-btn')
+        if(!isMenu && !isMenuBtn && showMenu.value){
+            showMenu.value = false
+        }
+    })
+})
 </script>
 
 <style scoped>

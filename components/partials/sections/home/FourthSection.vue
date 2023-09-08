@@ -8,7 +8,9 @@
                 <div class="self-center lg:w-full relative flex lg:justify-center">
                     <!--Handshake-->
                     <div class="z-0 w-[16rem] xs:w-[24.125rem] aspect-square card-drop p-6 rounded-[3.125rem] bg-white md:p-2 flex relative">
-                        <Handshake class="z-10 w-[8rem] xs:w-[10rem]  absolute -top-[3.75rem] -left-8"/>
+                        <div class="z-10 w-[8rem] xs:w-[10rem]  absolute -top-[3.75rem] -left-8 bg-port-gore flex items-center justify-center px-4 rounded-full  aspect-square">
+                            <img class="w-full" src="/images/partner.svg">
+                        </div>
                         <div class=" m-auto max-w-[17.25rem] w-full ">
                             <img src="/images/business/M.svg" class="m-auto w-full h-full object-cover" />
                         </div>
@@ -37,7 +39,6 @@
     </section>
 </template>
 <script setup>
-import Handshake  from "~/components/partials/includes/Handshake.vue";
 import CompaniesSlide from "@/components/partials/includes/CompaniesSlide.vue"
 </script>
 
