@@ -10,7 +10,7 @@
                          " :class="{'bg-port-gore text-white':showMenu,'text-port-gore border-port-gore bg-white md:hover:bg-port-gore md:hover:text-white':!showMenu}">
                         MENU
                 </button>
-                <button class="bg-caribbean-green font-galano-grotesque-medium font-normal hidden md:flex justify-center items-center px-6 py-[0.625rem] text-port-gore rounded-full 
+                <button @click="openContactForm" class="bg-caribbean-green font-galano-grotesque-medium font-normal hidden md:flex justify-center items-center px-6 py-[0.625rem] text-port-gore rounded-full 
                     tracking-[0.32px] uppercase transition-colors duration-300 ease-in-out
                     hover:bg-port-gore hover:text-white">
                     Kontakt
@@ -22,7 +22,7 @@
                          " :class="{'bg-port-gore text-white':showMenu,'text-port-gore border-port-gore bg-white md:hover:bg-port-gore md:hover:text-white':!showMenu}">
                         MENU
                     </button>
-                    <button class="bg-caribbean-green flex font-galano-grotesque-medium font-normal justify-center items-center px-6 py-[0.625rem] text-port-gore rounded-full 
+                    <button @click="openContactForm" class="bg-caribbean-green flex font-galano-grotesque-medium font-normal justify-center items-center px-6 py-[0.625rem] text-port-gore rounded-full 
                         tracking-[0.32px] uppercase transition-colors duration-300 ease-in-out
                         hover:bg-port-gore hover:text-white">
                         Kontakt
@@ -59,10 +59,18 @@
         
         
     </header>
+    <ContactForm ref="ContactFormRef" />
 </template>
 <script setup>
+import ContactForm from "@/components/partials/includes/ContactForm.vue"
 
 const showMenu = ref(false)
+const ContactFormRef = ref(null)
+
+const openContactForm = () => {
+    ContactFormRef.value.openForm();
+}
+
 
 onMounted(() => {
     window.addEventListener('click',(event)=>{
