@@ -1,3 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+/* GalanoGrotesque.otf/ */
+@font-face {
+    font-family: 'Galano Grotesque';
+    src: url('/fonts/GalanoGrotesque-Regular.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+/* GalanoGrotesque-Medium.otf */
+@font-face {
+    font-family: 'Galano Grotesque-medium';
+    src: url('/fonts/GalanoGrotesque-Medium.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@layer base{
+    h1{
+        /*text-4xl sm:text-6xl md:text-[5rem] font-galano-grotesque-medium font-normal*/
+        @apply text-3xl xs:text-4xl leading-[2.25rem] sm:text-5xl sm:leading-[3rem] lg:text-[5rem] lg:leading-[5rem]  font-galano-grotesque-medium font-normal;
+        /* @apply text-5xl leading-[3rem] sm:text-[4rem] sm:leading-[4rem] lg:text-[5rem] lg:leading-[5rem] font-galano-grotesque-medium; */
+    }
+    h2{
+        @apply text-2xl leading-6 sm:text-4xl sm:leading-9 lg:text-[3.125rem] lg:leading-[3.125rem]  font-galano-grotesque-medium;
+        /* @apply text-xl leading-6 sm:text-4xl sm:leading-9 lg:text-[3.125rem] lg:leading-[3.125rem]  font-galano-grotesque-medium; */
+    }
+}
+
+
+html{
+    @apply font-galano-grotesque text-dark-grey font-normal;
+}
+
+.container{
+    @apply max-w-[80rem] mx-auto;
+}
+
