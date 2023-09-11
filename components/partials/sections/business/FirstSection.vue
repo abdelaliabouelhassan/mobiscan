@@ -1,7 +1,8 @@
 <template>
 
-    <section class="container w-full bg-white  rounded-[3.125rem] px-4 pb-32 xs:pb-40 md:px-16 pt-36 lg:pb-32 relative">
-        <h1 class=" text-port-gore ">Über uns</h1>
+    <section class=" w-full bg-white  rounded-[3.125rem] ">
+       <div class=" container px-4 pb-32 xs:pb-40 md:px-16 pt-36 lg:pb-32 relative">
+         <h1 class=" text-port-gore ">Über uns</h1>
         <p class=" text-xl sm:text-2xl pt-10 lg:pt-[3.25rem] lg:text-3xl lg:pl-9">
             Lorem ipsum dolor sit amet consectetur.<br class="hidden xs:block">
                 Enim quam porta tortor cursus<br class="hidden xs:block">
@@ -18,6 +19,7 @@
                     class="object-contain"
                 />
         </div>
+       </div>
     </section>
 </template>
 
