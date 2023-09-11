@@ -1,5 +1,6 @@
 <template>
-    <footer class="footer w-full bg-port-gore-dark  pt-10 pb-16 px-14 space-y-20 container"> 
+    <footer class="footer w-full bg-port-gore-dark  pt-10 pb-16 px-14  "> 
+          <div class="container space-y-20">
             <img src="/images/logo/footer_logo.svg" alt="">
 
             <div class=" w-full flex sm:flex-row flex-wrap gap-x-6 sm:gap-x-8 gap-y-12  sm:gap-y-0 items-start max-w-[746px] mx-auto jus justify-between sm:space-x-4">
@@ -32,6 +33,7 @@
                     </a>
                 </div>
             </div>
+          </div>
     </footer>
 </template>
 

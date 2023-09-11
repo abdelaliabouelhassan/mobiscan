@@ -1,7 +1,7 @@
 <template>
-    <header class="w-full  fixed top-0 left-0 z-50">
+    <header class="w-full  fixed top-0 left-0 bg-white z-50 rounded-b-[2.5rem] shadow-[0_4px_4px_0_rgba(0,0,0,0.05)]">
         <div class="w-full max-w-[80rem] mx-auto relative flex md:h-[4.75rem] items-center">
-            <nav class="w-full h-full bg-white py-2 md:py-0 space-y-5 md:space-y-0 px-8 flex md:flex-row flex-col items-center md:justify-between z-50 rounded-b-[2.5rem] shadow-[0_4px_4px_0_rgba(0,0,0,0.05)]">
+            <nav class="w-full h-full  py-2 md:py-0 space-y-5 md:space-y-0 px-8 flex md:flex-row flex-col items-center md:justify-between z-50 ">
                 <nuxt-link to="/" class="h-8">
                     <img class="h-full  object-center" src="/images/logo/logo.svg" alt="" srcset="">
                 </nuxt-link>

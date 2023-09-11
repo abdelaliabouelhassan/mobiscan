@@ -1,21 +1,23 @@
 <template>
     <section class="w-full bg-gradient-to-b from-[#F6F6F6] to-white">
-       <div class="container w-full bg-caribbean-green text-port-gore rounded-[3.125rem] px-4 pb-32 xs:pb-40 md:px-16 pt-36 lg:pb-32 relative">
-            <h1>Vertriebspartner-<br> Programm</h1>
-            <p class="text-xl sm:text-2xl pt-10 lg:pt-[3.25rem] lg:text-3xl lg:pl-9">
-                Lorem ipsum dolor sit amet consectetur.<br class="hidden xs:block">
-                Enim quam porta tortor cursus<br class="hidden xs:block">
-                adipiscing nunc tellus nunc sed.
-            </p>
+       <div class=" w-full bg-caribbean-green text-port-gore rounded-[3.125rem] ">
+            <div class="container px-4 pb-32 xs:pb-40 md:px-16 pt-36 lg:pb-32 relative">
+                <h1>Vertriebspartner-<br> Programm</h1>
+                <p class="text-xl sm:text-2xl pt-10 lg:pt-[3.25rem] lg:text-3xl lg:pl-9">
+                    Lorem ipsum dolor sit amet consectetur.<br class="hidden xs:block">
+                    Enim quam porta tortor cursus<br class="hidden xs:block">
+                    adipiscing nunc tellus nunc sed.
+                </p>
 
-        <div class="drop_shadow p-8 box-content bg-port-gore aspect-square flex items-center justify-center rounded-full absolute 
-                -bottom-28 right-1/2 translate-x-1/2 
-                sm:-bottom-32 
-                lg:-bottom-28 lg:right-16 lg:translate-x-0 
-                w-40 sm:w-48 lg:w-[15.625rem]">
-            <img src="/images/partner.svg" class="object-contain"/>
+            <div class="drop_shadow p-8 box-content bg-port-gore aspect-square flex items-center justify-center rounded-full absolute 
+                    -bottom-28 right-1/2 translate-x-1/2 
+                    sm:-bottom-32 
+                    lg:-bottom-28 lg:right-16 lg:translate-x-0 
+                    w-40 sm:w-48 lg:w-[15.625rem]">
+                <img src="/images/partner.svg" class="object-contain"/>
+                </div>
             </div>
-        </div>
+       </div>
 
         <div class="pt-40 lg:pt-28 xl:pt-24 pb-[5.625rem] container w-full px-4 md:px-16">
             <div class=" w-full max-w-[43.6875rem] flex flex-col items-start space-y-8">
